@@ -196,3 +196,15 @@ footer { background: var(--bg-alt); border-top: 1px solid #1148b7dc; padding: 24
   .nav-links { gap: 8px; }
   .hero { min-height: 52vh; }
 }
+.site-logo {
+  height: 50px;       /* Adjust this height to match your header */
+  width: auto;        /* Keeps the logo from looking stretched */
+  vertical-align: middle; 
+  margin-right: 15px; /* Adds space between the logo and the text */
+}
+
+.logo-link {
+  text-decoration: none; /* Removes the underline from the link */
+  display: flex;
+  align-items: center;
+}
